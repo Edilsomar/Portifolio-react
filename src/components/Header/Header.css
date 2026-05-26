@@ -1,5 +1,7 @@
 .header-nav {
   position: fixed;
+  left: 50%; /* 1. Joga o início do header para o meio da tela */
+  transform: translateX(-50%); /* 2. Puxa metade do próprio peso de volta, centralizando perfeito */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,8 +9,9 @@
   padding: 8px 40px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.219);
-  width:95%;
-  z-index:1;
+  width: 95%; /* Continua com 95% mas agora totalmente centralizado */
+  z-index: 1;
+
 
    .logo h2 {
         font-size: 1.8rem;
@@ -48,5 +51,20 @@
     .header-nav{
         flex-direction: column;
         gap: 10px;
+    }
+}
+@media (max-width: 400px){
+    .header-nav{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2px !important;
+        width: 90%;
+    }
+    .item-menu{
+        font-size: 0.9rem !important;
+    }
+    .nav-menu{
+        gap: 10px ! important;
     }
 }
