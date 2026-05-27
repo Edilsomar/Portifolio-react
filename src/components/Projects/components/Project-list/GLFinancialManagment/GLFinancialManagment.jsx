@@ -5,7 +5,7 @@ const GLFinancialManagment = () => {
   return (
     <a
       className="project-link"
-      href="https://gpgestao.page.gd/?i=1"
+      href="https://edilsomar.github.io/GP-Dashboard-Financeiro/"
       target="_blank"
     >
       <h3 className="project-name">GL Financial Management</h3>

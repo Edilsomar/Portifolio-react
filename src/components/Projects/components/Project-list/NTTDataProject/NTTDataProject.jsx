@@ -5,7 +5,7 @@ const NTTDataProject = () => {
   return (
     <a
       className="project-link"
-      href="https://edilsomar.github.io/Estudos-HTML-CSS-JavaScript/Projetos/LoginNTTData/"
+      href="https://edilsomar.github.io/NTTData-Login/"
       target="_blank"
     >
       <h3 className="project-name">NTT Data Login</h3>

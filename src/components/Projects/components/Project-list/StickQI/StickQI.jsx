@@ -5,7 +5,7 @@ const StickQI = () => {
   return (
     <a
       className="project-link"
-      href="https://edilsomar.github.io/Estudos-HTML-CSS-JavaScript/Projetos/StickQ.I/"
+      href="https://edilsomar.github.io/StickQ-I/"
       target="_blank"
     >
       <h3 className="project-name">StickQ.I</h3>
